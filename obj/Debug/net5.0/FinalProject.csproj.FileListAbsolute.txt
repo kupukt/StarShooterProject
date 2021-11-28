@@ -1,0 +1,16 @@
+C:\CSE210_CodingProjects\FinalProject\bin\Debug\net5.0\FinalProject.exe
+C:\CSE210_CodingProjects\FinalProject\bin\Debug\net5.0\FinalProject.deps.json
+C:\CSE210_CodingProjects\FinalProject\bin\Debug\net5.0\FinalProject.runtimeconfig.json
+C:\CSE210_CodingProjects\FinalProject\bin\Debug\net5.0\FinalProject.runtimeconfig.dev.json
+C:\CSE210_CodingProjects\FinalProject\bin\Debug\net5.0\FinalProject.dll
+C:\CSE210_CodingProjects\FinalProject\bin\Debug\net5.0\ref\FinalProject.dll
+C:\CSE210_CodingProjects\FinalProject\bin\Debug\net5.0\FinalProject.pdb
+C:\CSE210_CodingProjects\FinalProject\obj\Debug\net5.0\FinalProject.csproj.AssemblyReference.cache
+C:\CSE210_CodingProjects\FinalProject\obj\Debug\net5.0\FinalProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSE210_CodingProjects\FinalProject\obj\Debug\net5.0\FinalProject.AssemblyInfoInputs.cache
+C:\CSE210_CodingProjects\FinalProject\obj\Debug\net5.0\FinalProject.AssemblyInfo.cs
+C:\CSE210_CodingProjects\FinalProject\obj\Debug\net5.0\FinalProject.csproj.CoreCompileInputs.cache
+C:\CSE210_CodingProjects\FinalProject\obj\Debug\net5.0\FinalProject.dll
+C:\CSE210_CodingProjects\FinalProject\obj\Debug\net5.0\ref\FinalProject.dll
+C:\CSE210_CodingProjects\FinalProject\obj\Debug\net5.0\FinalProject.pdb
+C:\CSE210_CodingProjects\FinalProject\obj\Debug\net5.0\FinalProject.genruntimeconfig.cache

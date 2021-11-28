@@ -1,0 +1,35 @@
+Main Idea: The main idea of this project is like the arcade game Galiga, except simplified.
+will be having a ship that shoots a beam that can destroy falling rocks, the shiphas three lifes. 
+If a rock hits the ship, then the ship looses lifes. 
+
+Main Requirements: 
+
+Moving ship that can shoot a weapon
+Falling Objects that can hit the ship
+A health system
+
+Lesser Requirements: 
+Power-ups
+A scoring system
+
+
+Classes:
+Program - Creates all objects/ creates the game. 
+Director - Start game, update game, check if game is over.
+Constants - Class of constant variables and methods usable with raylib. 
+Action - Parent class for all other action classes.
+AudioService - Handles all audio files of the games.
+InputService - Handles the user input.
+OutputService - 
+PhysicsService - Handles physics mechanics of the game.
+ControlActorsAction - Allows actors to be controlled. 
+DrawActorsAction - Draw up all actors of the game. 
+HandelColisionAction - Handles when actors collide with each other. 
+HandleOffScreenAction - Handles when actors go off screen.
+MoveActorsAction - Moves the actors.
+Actor - Parent class for all actors.
+Beam - A laser beam shooting out of the ship.
+Ship - Move around on the screen.
+Rock - Fall vertcally on the screen. Reset position off screen.
+Score - Keeps the score.
+Health - Keeps track of health. 
