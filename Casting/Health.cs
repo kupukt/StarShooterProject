@@ -1,6 +1,6 @@
 using System;
 
-namespace FinalProject
+namespace FinalProject.Casting
 {
     class Health: Actor
     {

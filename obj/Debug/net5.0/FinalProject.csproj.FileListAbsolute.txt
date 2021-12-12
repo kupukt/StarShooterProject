@@ -14,3 +14,9 @@ C:\CSE210_CodingProjects\FinalProject\obj\Debug\net5.0\FinalProject.dll
 C:\CSE210_CodingProjects\FinalProject\obj\Debug\net5.0\ref\FinalProject.dll
 C:\CSE210_CodingProjects\FinalProject\obj\Debug\net5.0\FinalProject.pdb
 C:\CSE210_CodingProjects\FinalProject\obj\Debug\net5.0\FinalProject.genruntimeconfig.cache
+C:\CSE210_CodingProjects\FinalProject\bin\Debug\net5.0\Raylib-cs.dll
+C:\CSE210_CodingProjects\FinalProject\bin\Debug\net5.0\runtimes\linux-x64\native\libraylib.so
+C:\CSE210_CodingProjects\FinalProject\bin\Debug\net5.0\runtimes\osx-x64\native\libraylib.dylib
+C:\CSE210_CodingProjects\FinalProject\bin\Debug\net5.0\runtimes\win-x64\native\raylib.dll
+C:\CSE210_CodingProjects\FinalProject\bin\Debug\net5.0\runtimes\win-x86\native\raylib.dll
+C:\CSE210_CodingProjects\FinalProject\obj\Debug\net5.0\FinalProject.csproj.CopyComplete
