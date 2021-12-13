@@ -36,7 +36,6 @@ namespace FinalProject
             }
 
             cast["beams"] = new List<Actor>();
-            List<Beam> _beam = new List<Beam>();
             Beam _beams = new Beam();
             _beams.SetPosition(_ships.GetPosition());
             cast["beams"].Add(_beams);

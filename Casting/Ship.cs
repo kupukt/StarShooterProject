@@ -6,8 +6,8 @@ namespace FinalProject.Casting
     {
         public Ship()
         {
-            SetWidth(Constants.BALL_WIDTH);
-            SetHeight(Constants.BALL_HEIGHT);
+            SetWidth(Constants.Ship_WIDTH);
+            SetHeight(Constants.Ship_HEIGHT);
             SetImage(Constants.IMAGE_Ship);
             SetPosition(new Point(Constants.PADDLE_X, Constants.PADDLE_Y));
         }

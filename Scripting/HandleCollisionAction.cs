@@ -15,7 +15,7 @@ namespace FinalProject.Scripting
 
         public HandleCollisionAction()
         {
-            physics = new PhysicsService();
+            
         }
 
         public override void Execute(Dictionary<string, List<Actor>> cast)
@@ -47,17 +47,18 @@ namespace FinalProject.Scripting
                 {
                     foreach(Actor Health in healthpoints)
                     {
+                        if(physics.IsCollision(Rock,Ship) && removeHealth.Count == 3)
+                        {
+                            removeShip.Add(Ship);
+                            audio.PlaySound(Constants.SOUND_OVER);
+                            
+                        }
                         if(physics.IsCollision(Rock,Ship))
                         {
                             removeRocks.Add(Rock);
                             removeHealth.Add(Health);
-
-                            if(removeHealth.Count == 3)
-                            {
-                                removeShip.Add(Ship);
-                                audio.PlaySound(Constants.SOUND_OVER);
-                                Raylib_cs.Raylib.WindowShouldClose();
-                            }
+    
+                            
                         }
                         
                         

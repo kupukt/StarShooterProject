@@ -42,7 +42,7 @@ namespace FinalProject
         public const int PADDLE_WIDTH = 60;
         public const int PADDLE_HEIGHT = 60;
 
-        public const int BALL_WIDTH = 60;
-        public const int BALL_HEIGHT = 80;
+        public const int Ship_WIDTH = 30;
+        public const int Ship_HEIGHT = 80;
     }
 }
