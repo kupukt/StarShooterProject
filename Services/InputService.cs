@@ -35,6 +35,11 @@ namespace FinalProject.Services
             return Raylib.IsKeyDown(Raylib_cs.KeyboardKey.KEY_DOWN);
         }
 
+        public bool IsSpacePressed()
+        {
+            return Raylib.IsKeyDown(Raylib_cs.KeyboardKey.KEY_SPACE);
+        }
+
         /// <summary>
         /// Gets the direction asked for by the current key presses
         /// </summary>
@@ -53,9 +58,36 @@ namespace FinalProject.Services
             {
                 x = 1;
             }
+
+            if(IsUpPressed())
+            {
+                y = -1;
+            }
+
+            if(IsDownPressed())
+            {
+                y = 1;
+            }
             
             return new Point(x, y);
         }
+
+        public int SetSpaceInput()
+        {
+            int x = 0;
+        
+            if(IsSpacePressed())
+            {
+                return x;
+            }
+            else
+            {
+                x = 1;
+                return x;
+            }
+        }
+
+        
 
         /// <summary>
         /// Returns true if the user has attempted to close the window.

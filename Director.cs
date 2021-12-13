@@ -12,6 +12,8 @@ namespace FinalProject
         private Dictionary<string, List<Actor>> _cast;
         private Dictionary<string, List<Action>> _script;
 
+        AudioService _endgame = new AudioService();
+
         public Director(Dictionary<string, List<Actor>> cast, Dictionary<string, List<Action>> script)
         {
             _cast = cast;
@@ -32,6 +34,7 @@ namespace FinalProject
                 if (Raylib_cs.Raylib.WindowShouldClose())
                 {
                     _keepPlaying = false;
+                    _endgame.StopAudio();
                 }
                 
             }

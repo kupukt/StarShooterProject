@@ -9,8 +9,6 @@ namespace FinalProject.Casting
             SetWidth(Constants.BALL_WIDTH);
             SetHeight(Constants.BALL_HEIGHT);
             SetImage(Constants.IMAGE_Ship);
-            Point velocity = new Point(0,0);
-            SetVelocity(velocity);
             SetPosition(new Point(Constants.PADDLE_X, Constants.PADDLE_Y));
         }
         

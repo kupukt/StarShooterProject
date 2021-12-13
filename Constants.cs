@@ -15,13 +15,13 @@ namespace FinalProject
         public const int DEFAULT_FONT_SIZE = 20;
         public const int DEFAULT_TEXT_OFFSET = 4;
 
-        public const string IMAGE_BRICK = "./Assets/brick-3.png";
-        public const string IMAGE_PADDLE = "./Assets/bat.png";
+        public const string IMAGE_Rock = "./Assets/rock.png";
+        public const string IMAGE_Beam = "./Assets/Beam.png";
         public const string IMAGE_Ship = "./Assets/Ship.png";
 
-        public const string SOUND_START = "./Assets/start.wav";
-        public const string SOUND_BOUNCE = "./Assets/boing.wav";
-        public const string SOUND_OVER = "./Assets/over.wav";
+        public const string SOUND_START = "./Assets/StartUp.wav";
+        public const string SOUND_Explode = "./Assets/Explosion.wav";
+        public const string SOUND_OVER = "./Assets/EndGame.wav";
 
         public const int BALL_X = MAX_X / 2;
         public const int BALL_Y = MAX_Y - 125;
@@ -30,12 +30,12 @@ namespace FinalProject
         public const int BALL_DY = BALL_DX * -1;
 
         public const int PADDLE_X = MAX_X / 2;
-        public const int PADDLE_Y = MAX_Y - 25;
+        public const int PADDLE_Y = MAX_Y + 500;
 
-        public const int BRICK_WIDTH = 48;
-        public const int BRICK_HEIGHT = 24;
+        public const int Rock_WIDTH = 48;
+        public const int Rock_HEIGHT = 24;
 
-        public const int BRICK_SPACE = 5;
+        public const int Rock_SPACE = 10;
 
         public const int PADDLE_SPEED = 15;
 

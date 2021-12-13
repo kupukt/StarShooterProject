@@ -2,7 +2,7 @@ using System;
 
 namespace FinalProject.Scripting
 {
-    class HandleOffScreenAction
+    public class HandleOffScreenAction
     {
         
     }

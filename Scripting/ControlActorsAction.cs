@@ -17,10 +17,13 @@ namespace FinalProject.Scripting
         {
            Point direction = _input.GetDirection();
 
-           Actor ship = cast["ships"][0];
+           
+            List<Actor> ship = cast["ships"];
 
            Point velocity = direction.Scale(Constants.PADDLE_SPEED);
-           ship.SetVelocity(velocity);
+           ship[0].SetVelocity(velocity);
+
+           List<Actor> Beam = new List<Actor>();
         }
     }
 }
