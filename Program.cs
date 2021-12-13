@@ -26,7 +26,7 @@ namespace FinalProject
 
             for (int x = Constants.Rock_SPACE; x < 760; x += (Constants.Rock_WIDTH + Constants.Rock_SPACE))
             {
-                for (int y = 0; y < 150; y += (Constants.Rock_HEIGHT + Constants.Rock_SPACE))
+                for (int y = 0; y < 200; y += (Constants.Rock_HEIGHT + Constants.Rock_SPACE))
                 {
                     Rock _rock = new Rock();
                     Point _point = new Point(x,y);
@@ -40,6 +40,7 @@ namespace FinalProject
             Beam _beams = new Beam();
             _beams.SetPosition(_ships.GetPosition());
             cast["beams"].Add(_beams);
+            
             InputService _startBeam = new InputService();
         
             if(_startBeam.SetSpaceInput() == 0)
@@ -49,10 +50,10 @@ namespace FinalProject
 
             cast["healthpoints"] = new List<Actor>();
             List<Health> _health = new List<Health>();
+            Actor Health = new Actor();
             
             for(int x = 0; x<4; x++)
             {
-                Actor Health = new Actor();
                 cast["healthpoints"].Add(Health);
             }
 

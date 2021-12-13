@@ -39,10 +39,10 @@ namespace FinalProject
 
         public const int PADDLE_SPEED = 15;
 
-        public const int PADDLE_WIDTH = 96;
-        public const int PADDLE_HEIGHT = 24;
+        public const int PADDLE_WIDTH = 60;
+        public const int PADDLE_HEIGHT = 60;
 
-        public const int BALL_WIDTH = 24;
-        public const int BALL_HEIGHT = 24;
+        public const int BALL_WIDTH = 60;
+        public const int BALL_HEIGHT = 80;
     }
 }

@@ -21,7 +21,12 @@ namespace FinalProject.Scripting
             List<Actor> ship = cast["ships"];
 
            Point velocity = direction.Scale(Constants.PADDLE_SPEED);
-           ship[0].SetVelocity(velocity);
+           
+           if(ship.Count == 1)
+           {
+               ship[0].SetVelocity(velocity);
+           }
+           
 
            List<Actor> Beam = new List<Actor>();
         }
